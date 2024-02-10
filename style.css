@@ -140,6 +140,12 @@ header #search.large::after{
     width: 25%;
     align-self: center;
 }
+.group a:hover{
+    transition: all 0.2s ease;
+    background: rgb(150, 150, 255);
+    scale: 1.05;
+    box-shadow: 10px 10px 20px 0px rgba(150, 150, 255);
+}
 
 
 .new{

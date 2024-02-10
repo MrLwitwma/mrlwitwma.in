@@ -212,7 +212,6 @@ svg{
     text-align: center;
     text-decoration: none;
     color: black;
-    transition: all 0.2s ease;
 }
 .group img{
     width: 25%;
@@ -220,6 +219,7 @@ svg{
 }
 
 .group a:hover{
+    transition: all 0.2s ease;
     background: rgb(150, 150, 255);
     scale: 1.05;
     box-shadow: 10px 10px 20px 0px rgba(150, 150, 255);
