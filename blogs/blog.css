@@ -131,6 +131,10 @@ header #search.large::after{
 .blog p{
     font-weight: 500;
 }
+.blog li{
+    font-size: 18px;
+    font-weight: 500;
+}
 
 footer{
     display: flex;
