@@ -225,3 +225,72 @@ svg{
     scale: 1.05;
     box-shadow: 10px 10px 20px 0px rgba(150, 150, 255);
 }
+
+
+main{
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1400px;
+}
+.project{
+    width: 80%;
+    max-width: 600px;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #7C7C7C, black);
+    display: flex;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.project:hover{
+    scale: 1.02;
+}
+img{
+    aspect-ratio: 1/1;
+    width: 30%;
+    min-width: 150px;
+    max-width: 200px;
+}
+.details{
+    width: 50%;
+}
+.description {
+    width: 50%;
+    height: 300px;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+.description::-webkit-scrollbar{
+    width: 5px;
+}
+.description::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 20px;
+}
+
+
+button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    scale: 1.02;
+}
+button:active{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
