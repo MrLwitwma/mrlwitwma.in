@@ -215,6 +215,7 @@ svg{
     color: black;
 }
 .group img{
+    aspect-ratio: 1/1;
     width: 25%;
     align-self: center;
 }
@@ -254,7 +255,7 @@ main{
 img{
     aspect-ratio: 1/1;
     width: 30%;
-    min-width: 150px;
+    min-width: 100px;
     max-width: 200px;
 }
 .details{
