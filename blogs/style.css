@@ -157,6 +157,7 @@ header #search.large::after{
 .blog a:active{
     background: white;
     color: black;
+    scale: 1;
 }
 
 footer{
