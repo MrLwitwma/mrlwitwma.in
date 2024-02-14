@@ -168,6 +168,33 @@ header #search.large::after{
 }
 .new-items .square{
     width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.new-items a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.new-items h2{
+    font-family: 'AudioWide';
+    font-size: 10vw;
+    margin: 0;
+    margin-top: 20px;
+}
+.pixa{
+    background: linear-gradient(to right, purple, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.new-items p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: 500;
 }
 
 
@@ -364,6 +391,13 @@ footer .copy{
         border-radius: 0px 0px 0px 20px;
         right: 0;
         top: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .new-items h2 {
+        margin-top: 40px;
+        font-size: 120px; /* Set a fixed font size for larger screens */
     }
 }
 
