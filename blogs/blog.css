@@ -135,6 +135,15 @@ header #search.large::after{
     font-size: 18px;
     font-weight: 500;
 }
+.blog a{
+    opacity: 0.7;
+    font-weight: 700;
+    color: rgb(2, 78, 255);
+}
+.blog a:hover{
+    text-decoration: 2px underline;
+    opacity: 1;
+}
 
 footer{
     display: flex;
