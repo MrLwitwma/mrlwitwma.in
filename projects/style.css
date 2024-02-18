@@ -314,8 +314,7 @@ button:active{
 .course button{
     background: green;
 }
-
-span{
+.course span{
     width: 100%;
     color: rgb(0, 157, 255);
     text-align: center;
