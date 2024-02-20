@@ -37,6 +37,8 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 body::-webkit-scrollbar{
     width: 8px;
@@ -100,6 +102,41 @@ header #search.large::after{
     outline: none;
     box-shadow: -1px -1px 10px ;
 }
+
+.main{
+    align-self: center;
+    margin-top: 50px;
+    max-width: 1300px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right, white, rgb(223, 223, 223));
+    padding: 30px;
+    border-radius: 20px;
+}
+.main .icon{
+    width: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid;
+    align-self: center;
+    background: white;
+}
+.main a{
+    text-decoration: none;
+}
+.main a svg{
+    color: black;
+}
+.main > .contacts{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
 
 footer{
     display: flex;
@@ -185,149 +222,5 @@ svg{
         border-radius: 0px 0px 0px 20px;
         right: 0;
         top: 0;
-    }
-}
-
-.square{
-    height: auto;
-    width: 400px;
-    aspect-ratio: 16/9;
-    background: #D9D9D9;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-}
-
-.group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1400px;
-    margin: auto;
-}
-.group a{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-.group img{
-    aspect-ratio: 1/1;
-    width: 25%;
-    align-self: center;
-}
-
-.group a:hover{
-    transition: all 0.2s ease;
-    background: rgb(150, 150, 255);
-    scale: 1.05;
-    box-shadow: 10px 10px 20px 0px rgba(150, 150, 255);
-}
-
-
-main{
-    display: flex;
-    justify-content: center;
-    color: white;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 50px;
-    max-width: 1400px;
-}
-.project{
-    width: 80%;
-    max-width: 600px;
-    min-height: 200px;
-    height: auto;
-    padding: 20px;
-    border-radius: 20px;
-    background: linear-gradient(to left, #111111, #253452);
-    display: flex;
-    margin: 10px;
-    transition: all 0.3s ease-in-out;
-}
-.project:hover{
-    scale: 1.02;
-}
-img{
-    aspect-ratio: 1/1;
-    width: 30%;
-    min-width: 100px;
-    max-width: 200px;
-}
-.details{
-    width: 50%;
-}
-.description {
-    width: 50%;
-    height: 300px;
-    text-overflow: ellipsis;
-    overflow: auto;
-}
-.description::-webkit-scrollbar{
-    width: 5px;
-}
-.description::-webkit-scrollbar-thumb{
-    background: white;
-    border-radius: 20px;
-}
-
-
-button{
-    background: black;
-    color: white;
-    border: 1px solid white;
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    transition: 0.3s ease-in-out;
-}
-button:hover{
-    scale: 1.02;
-}
-button:active{
-    background: white;
-    color: black;
-    border: 1px solid black;
-}
-
-.course{
-    width: 80%;
-    max-width: 600px;
-    min-height: 200px;
-    height: auto;
-    padding: 20px;
-    border-radius: 20px;
-    background: linear-gradient(to bottom right, #1a1a4b, #000000);
-    display: flex;
-    margin: 10px;
-    transition: all 0.3s ease-in-out;
-}
-.course:hover{
-    scale: 1.02;
-}
-.course button{
-    background: green;
-}
-main span{
-    width: 100%;
-    color: rgb(81, 10, 122);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 1000;
-    margin-bottom: 10px;
-    animation: blink 1s linear infinite;
-}
-@keyframes blink{
-    0%, 100%{
-        opacity: 1;
-    } 
-    50%{
-        opacity: 0.3;
     }
 }
