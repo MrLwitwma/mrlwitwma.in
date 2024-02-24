@@ -22,3 +22,8 @@ background.addEventListener('click', () => {
             background.style.display = 'none';
         }
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    const copy = document.getElementById('copyright');
+    copy.innerHTML = 'Copyright &copy; 2024 MrLwitwma'
+});
