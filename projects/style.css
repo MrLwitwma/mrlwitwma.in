@@ -1,0 +1,354 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#show-more{
+    width: 25px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+#show-more span{
+    width: 25px;
+    height: 5px;
+    background: black;
+    border-radius: 20px;
+}
+#show-more span:nth-child(2){
+    width: 20px;
+}
+#show-more span:nth-child(3){
+    width: 15px;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 20px;
+}
+
+
+header{
+    background: #D9D9D9;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+header a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+header a:hover{
+    text-decoration: underline 3px black;
+    transform: translateY(-2px);
+}
+header #items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
+header #search.large{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    border: 4px solid;
+    border-radius: 100%;
+}
+header #search.large::after{
+    content: "";
+    position: absolute;
+    rotate: -35deg;
+    border: 3px solid black;
+    height: 10px;
+    right: -4px;
+    bottom: -15px;
+}
+#search2 input{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: -1px -1px 10px ;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+footer .social-media{
+    height: 200px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .medias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .clickme{
+    display: flex;
+}
+footer .medias a{
+    text-decoration: none;
+}
+footer .medias .circle{
+    border-radius: 0px;
+    margin: 20px;
+}
+footer .copy{
+    height: 150px;
+    background: #6003A9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+svg{
+    width: 50px;
+    height: 50px;
+    color: rgb(62, 62, 62);
+}
+
+
+
+@media (min-width: 720px){
+    .small{
+        display: none;
+    }
+    #items{
+        display: flex;
+    }
+    #more{
+        display: flex;
+    }
+}
+
+@media (max-width: 720px){
+    #more{
+        display: none;
+    }
+    .large{
+        display: none;
+    }
+    #search2.small{
+        display: unset;
+    }
+    #show-more{
+        display: flex;
+    }
+    .items-column{
+        flex-direction: column;
+        position: absolute;
+        justify-content: unset;
+        align-items: unset;
+        background: rgb(199, 199, 199);
+        box-shadow: 1px 1px 10px;
+    }
+    header #items{
+        width: 160px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 0px 0px 0px 20px;
+        right: 0;
+        top: 0;
+    }
+}
+
+.square{
+    height: auto;
+    width: 400px;
+    aspect-ratio: 16/9;
+    background: #D9D9D9;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+}
+.group a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.group img{
+    aspect-ratio: 1/1;
+    width: 25%;
+    align-self: center;
+}
+
+.group a:hover{
+    transition: all 0.2s ease;
+    background: rgb(150, 150, 255);
+    scale: 1.05;
+    box-shadow: 10px 10px 20px 0px rgba(150, 150, 255);
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1400px;
+}
+.project{
+    width: 80%;
+    max-width: 600px;
+    max-height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to top, #181818, #5575b3);
+    display: flex;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.project:hover{
+    scale: 1.02;
+}
+.project span{
+    font-weight: 500;
+    font-size: 18px;
+}
+img{
+    aspect-ratio: 1/1;
+    width: 30%;
+    min-width: 100px;
+    max-width: 200px;
+}
+.details{
+    width: 50%;
+}
+.description {
+    width: 50%;
+    height: 300px;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+.description::-webkit-scrollbar{
+    width: 5px;
+}
+.description::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 20px;
+}
+
+
+button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.02;
+}
+button:active{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.course{
+    width: 80%;
+    max-width: 600px;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #1a1a4b, #000000);
+    display: flex;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.course:hover{
+    scale: 1.02;
+}
+.course button{
+    background: green;
+}
+
+.blog{
+    width: 80%;
+    max-width: 600px;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to left, #111111, #253452);
+    display: flex;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.blog:hover{
+    scale: 1.02;
+}
+
+main > span{
+    width: 100%;
+    color: rgb(81, 10, 122);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%, 100%{
+        opacity: 1;
+    } 
+    50%{
+        opacity: 0.3;
+    }
+}

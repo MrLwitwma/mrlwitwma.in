@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrLwitwma | Course | HTML</title>
+    <link rel="icon" href="/static/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../blog.css">
+    <meta name="google-adsense-account" content="ca-pub-8723574140909017">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8723574140909017"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="background"></div>
+    <header>
+        <a style="font-size: 24px; font-weight: 700;" href="/..">MrLwitwma</a>
+        <div id="show-more">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="more">
+            <div id="items">
+                <!-- <div id="search2" class="small">
+                    <form action="/search">
+                        <input type="text" name="search" id="" placeholder="Search..">
+                    </form>
+                </div> -->
+                <a href="/projects/python/">Python</a>
+                <a href="/projects/html/">HTML</a>
+                <a href="/projects/css/">CSS</a>
+                <a href="/projects/js/">Javascript</a>
+                <a href="../">Blogs</a>
+            </div>
+            <!-- <div id="search" class="large"></div> -->
+        </div>
+    </header>
+    <script src="script.js"></script>
+    <div class="main">
+            <div class="blog">
+                <h2>HTML for Beginners (Course)</h2>
+                <h3>MrLwitwma | <span>HTML Course</span></h3>
+                <div class="content">
+                    <u>
+                        <h1>HTML for Beginners</h1>
+                    </u>
+
+                    <h2>What is HTML?</h2>
+                    <p>HTML, or Hypertext Markup Language, is the standard language used to create and design web pages. It provides the structure and layout for content on the World Wide Web by using a system of tags and attributes to define elements such as headings, paragraphs, links, images, and more. HTML documents are interpreted by web browsers to render the content and present it to users in a visually appealing and interactive format.</p>
+                    <p>You can Think of HTML as the backbone of a web page. Just like a skeleton gives shape to a body, HTML gives structure to a web page. It uses a set of special codes called "tags" to define different parts of the page, like paragraphs, headings, images, and links. These tags tell web browsers how to display the content so that it looks good and makes sense to people who visit the page. So, in simple terms, HTML is the language that web browsers understand to show us websites on the internet.</p>
+                    <h2>What are tags in HTML?</h2>
+                    <p>In HTML, tags are special codes used to define different elements or parts of a web page. Tags are enclosed in angle brackets, like this: `&lt;tagname>`. There are two main types of tags: opening tags and closing tags.</p>
+                    <ol>
+                        <li>Opening tags: These tags mark the beginning of an element and usually include the name of the element. For example, `&lt;p>` is the opening tag for a paragraph element.</li>
+                        <li>Closing tags: These tags mark the end of an element and are similar to opening tags, but they include a forward slash before the tag name. For example, `&lt;/p>` is the closing tag for a paragraph element.</li>
+                    </ol>
+                    <p>Some tags are self-closing, meaning they don't have a separate closing tag. These tags end with a forward slash before the closing angle bracket. For example, `&lt;img>` is a self-closing tag used to insert images into a web page.</p>
+
+                    <h2>For complete beginners in HTML, here are the essential things to learn:</h2>
+                    <ol>
+                        <li><strong>Basic Structure</strong> Understand the basic structure of an HTML document, including the `&lt;html>`, `&lt;head>`, and `&lt;body>` tags.</li>
+                        <li><strong>Tags and Elements</strong> Learn about different HTML tags and elements used to define the structure and content of a web page, such as headings (`&lt;h1>` to `&lt;h6>`), paragraphs (`&lt;p>`), lists (`&lt;ul>`, `&lt;ol>`, `&lt;li>`), links (`&lt;a>`), images (`&lt;img>`), and more.</li>
+                        <li><strong>Attributes</strong> Understand how attributes are used within HTML tags to provide additional information or settings. Common attributes include `src`, `href`, `alt`, `id`, `class`, and `style`.</li>
+                        <li><strong>Semantic HTML</strong> Learn about semantic HTML elements that convey meaning to both browsers and developers, such as `&lt;header>`, `&lt;footer>`, `&lt;nav>`, `&lt;article>`, `&lt;section>`, and `&lt;aside>`. These elements help improve accessibility and search engine optimization.</li>
+                        <li><strong>Forms</strong> Familiarize yourself with form elements (`&lt;form>`, `&lt;input>`, `&lt;textarea>`, `&lt;button>`, etc.) used to collect user input on web pages.</li>
+                        <li><strong>Structuring Content</strong> Understand how to structure content using headings, paragraphs, lists, and other elements to create well-organized and readable web pages.</li>
+                        <li><strong>Links and Navigation</strong> Learn how to create hyperlinks (`&lt;a>` tags) to link to other pages within the same site or external websites. Understand how to create navigation menus using lists and anchor links.</li>
+                        <li><strong>Images and Multimedia</strong> Learn how to embed images (`&lt;img>` tags) and multimedia content (like videos and audio) into web pages.</li>
+                        <li><strong>Basic Styling</strong> While CSS (Cascading Style Sheets) is used for styling web pages, understanding basic inline styles (using the `style` attribute) can be helpful for beginners to add simple styling like colors, fonts, and alignments directly within HTML.</li>
+                    </ol>
+
+                    <h1>Basic Structure</h1>
+                    <p>The basic structure of an HTML document serves as the foundation for every web page. It consists of essential elements that define the document's type, structure, and content. Here's a breakdown of each component:</p>
+                    <ol>
+                        <li>
+                            Document Type Declaration (DOCTYPE): <br>
+                            - The DOCTYPE declaration is the very first line of an HTML document and informs the web browser which version of HTML the document is using. It looks like this: `&lt;!DOCTYPE html>`. <br>
+                            - In HTML5, the latest version of HTML, the DOCTYPE declaration is simplified to `&lt;!DOCTYPE html>`.
+                         </li>
+                         <li>
+                            HTML Element (`&lt;html>`): <br>
+                            - The `&lt;html>` element is the root element of an HTML document and wraps all other elements. <br>
+                            - It contains two main sections: the `&lt;head>` section and the `&lt;body>` section.
+                         </li>
+                         <li>
+                            Head Section (`&lt;head>`): <br>
+                            - The `&lt;head>` section contains metadata and other elements that provide information about the document but are not displayed directly on the web page. <br>
+                            - Common elements within the `&lt;head>` section include: <br>
+                            - `&lt;title>`: Sets the title of the web page, which appears in the browser's title bar or tab. <br>
+                            - `&lt;meta>`: Provides metadata about the document, such as character encoding and viewport settings. <br>
+                            - `&lt;link>`: Links to external resources like stylesheets or icon files. <br>
+                            - `&lt;script>`: Links to or embeds JavaScript code. <br>
+                            - `&lt;style>`: Defines internal CSS styles for the document. <br>
+                            - Other meta-information for search engines, social media sharing, etc., can also be included here. <br>
+                         </li>
+                         <li>
+                            Body Section (`&lt;body>`):
+                            - The `&lt;body>` section contains the actual content of the web page that is visible to users. <br>
+                            - It includes elements like headings (`&lt;h1>`, `&lt;h2>`, etc.), paragraphs (`&lt;p>`), lists (`&lt;ul>`, `&lt;ol>`, `&lt;li>`), images (`&lt;img>`), links (`&lt;a>`), forms (`&lt;form>`, `&lt;input>`, `&lt;button>`, etc.), and more. <br>
+                            - This is where you structure and organize the content of your web page. <br>
+                         </li>
+                    </ol>
+
+                    <h1>Tag Elements</h1>
+                    <p>Tags and elements are fundamental concepts in HTML that define the structure and content of a web page. Let's explore them in detail:</p>
+                    <ol>
+                        <li>
+                            Tags: <br>
+                            - Tags are the building blocks of HTML and are enclosed in angle brackets (`&lt;` and `>`). <br>
+                            - They mark the beginning and end of HTML elements, defining their boundaries. <br>
+                            - Tags can be either opening tags, closing tags, or self-closing tags. <br>
+                            - Opening tags denote the start of an element and contain the element's name, attributes, and sometimes additional information. <br>
+                            - Closing tags denote the end of an element and are identical to opening tags except for the addition of a forward slash (`/`) before the tag name.  <br>
+                            - Self-closing tags are used for elements that don't have any content inside them and end with a forward slash before the closing angle bracket. <br>
+                        </li>
+                        <li>
+                            Elements: <br>
+                            - An element is a complete set of tags that defines a specific part of a web <br> page's content or structure. <br>
+                            - It consists of an opening tag, content (if applicable), and a closing tag. <br>
+                            - Elements can contain other elements, creating a hierarchical structure within the HTML document. <br>
+                            - Each element serves a different purpose and contributes to the overall structure and presentation of the web page. <br>
+                            - Examples of HTML elements include headings (`&lt;h1>`, `&lt;h2>`, etc.), paragraphs (`&lt;p>`), lists (`&lt;ul>`, `&lt;ol>`, `&lt;li>`), links (`&lt;a>`), images (`&lt;img>`), forms (`&lt;form>`, `&lt;input>`, `&lt;button>`), and many more.  <br>
+                        </li>
+                        <p>Understanding tags and elements is crucial for creating well-formed HTML documents and designing effective web pages. By using the appropriate tags and structuring elements correctly, you can organize content, enhance readability, and improve the accessibility and usability of your web pages.</p>
+                    </ol>
+
+                    <h1>Semantic HTML</h1>
+                    <p>Attributes are additional pieces of information that can be added to HTML elements to modify their behavior or provide extra details. Here's a breakdown of attributes in HTML:</p>
+                    <ol>
+                        <li>
+                            <strong>Syntax</strong> <br>
+                            - Attributes are added to HTML elements within the opening tag and are written as name-value pairs. <br>
+                            - They consist of an attribute name followed by an equals sign (`=`) and the attribute value enclosed in double quotes (`"`). <br>
+                        </li>
+                        <li>
+                            <strong>Common Attributes</strong> <br>
+                            - <strong>id</strong> Used to uniquely identify an element within a document. IDs must be unique. <br>
+                            - <strong>class</strong> Used to assign one or more class names to an element, allowing multiple elements to be styled together. <br>
+                            - <strong>src</strong> Specifies the URL of the resource (such as an image or script) to be embedded or linked. <br>
+                            - <strong>href</strong> Specifies the URL of the destination for a hyperlink (`&lt;a>` tag). <br>
+                            - <strong>alt</strong> Provides alternative text for images (`&lt;img>` tag) for accessibility purposes. <br>
+                            - <strong>title</strong> Provides additional information about an element, often displayed as a tooltip when the mouse hovers over the element. <br>
+                            - <strong>style</strong> Allows inline CSS styles to be applied directly to an element. <br>
+                            - <strong>target</strong> Specifies where to open the linked document when clicked, such as in a new window or tab. <br>
+                            - <strong>type</strong> Specifies the media type of the content linked to or embedded within an element. <br>
+                        </li>
+                        <li>
+                            <strong>Custom Attributes</strong> <br>
+                            - While there are many predefined attributes in HTML, you can also create custom attributes for your own purposes. <br>
+                            - Custom attributes should begin with the prefix `data-` to ensure compatibility with HTML standards and to avoid conflicts with future updates. <br>
+                        </li>
+                        <li>
+                            <strong>Boolean Attributes</strong> <br>
+                            - Some attributes do not require a value and are simply present or absent to enable or disable a feature. <br>
+                            - For boolean attributes, the presence of the attribute itself indicates its value is true, while its absence indicates its value is false. <br>
+                            - Examples include `disabled`, `readonly`, `checked`, and `required` among others. <br>
+                        </li>
+                        <li>
+                            <strong>Usage</strong> <br>
+                            - Attributes are used to add functionality, styling, accessibility, and semantic meaning to HTML elements. <br>
+                            - They play a crucial role in enhancing the behavior and appearance of web pages.    <br>
+                        </li>
+                    </ol>
+                    <p>By leveraging attributes effectively, you can customize and enhance the behavior, appearance, and accessibility of your HTML elements, thereby creating more dynamic and user-friendly web pages.</p>
+
+                    <h1>Forms</h1>
+                    <p>Forms in HTML provide a way for users to input data and interact with web pages. They are used for various purposes, such as submitting information, logging in, registering, or conducting surveys. Here's an overview of forms in HTML:</p>
+                    <ol>
+                        <li>
+                            <strong>Form Element (`&lt;form>`)</strong> <br>
+                            - The `&lt;form>` element is used to create a container for form controls, such as input fields, checkboxes, radio buttons, and buttons. <br>
+                            - It defines where the form data will be sent upon submission, using the `action` attribute, and specifies the HTTP method to be used (e.g., `GET` or `POST`).  <br>
+                        </li>
+                        <li>
+                            <strong>Input Fields</strong> <br>
+                            - Input fields allow users to enter data, such as text, numbers, or files. <br>
+                            - Common input types include text (`&lt;input type="text">`), password (`&lt;input type="password">`), email (`&lt;input type="email">`), number (`&lt;input type="number">`), checkbox (`&lt;input type="checkbox">`), radio button (`&lt;input type="radio">`), and file (`&lt;input type="file">`). <br>
+                        </li>
+                        <li>
+                            <strong>Labels</strong> <br>
+                            - Labels (`&lt;label>`) are used to describe the purpose of an input field, providing context and improving accessibility. <br>
+                            - They are associated with input fields using the `for` attribute, which matches the `id` attribute of the input field.    <br> 
+                        </li>
+                        <li>
+                            <strong>Buttons</strong> <br>
+                            - Buttons (`&lt;button>`) allow users to perform actions within the form, such as submitting data or resetting the form. <br>
+                            - They can also be styled using CSS to enhance their appearance. <br>
+                        </li>
+                        <li>
+                           <strong>Textarea</strong> <br>
+                           - Textarea (`&lt;textarea>`) allows users to input multiple lines of text. <br>
+                           - It is useful for longer responses, such as comments or messages. <br>
+                        </li>
+                        <li>
+                           <strong>Select Menus</strong> <br>
+                           - Select menus (`&lt;select>`) create drop-down lists of options from which users can select one or more choices. <br>
+                           - They are used for selecting options from predefined lists, such as choosing a country or selecting categories. <br>
+                        </li>
+                        <li>
+                           <strong>Form Submission</strong> <br>
+                           - When a user submits a form, the data entered into the form fields is sent to the server specified in the `action` attribute. <br>
+                           - Depending on the HTTP method specified (`GET` or `POST`), the form data is sent as part of the URL (for `GET`) or in the request body (for `POST`). <br>
+                        </li>
+                        <li>
+                           <strong>Validation</strong> <br>
+                           - HTML5 introduced built-in form validation features to help ensure data entered by users is valid before submission. <br>
+                           - Attributes like `required`, `pattern`, `min`, and `max` can be used to enforce specific validation rules on input fields. <br>
+                        </li>
+                    </ol>
+                    <p>Forms are essential for interactivity on the web, allowing users to provide input and interact with web applications. By understanding how to create and use forms in HTML, you can build dynamic and user-friendly web pages that collect and process user data effectively.</p>
+
+                    <h1>Structuring Content</h1>
+                    <p>Structuring content in HTML involves organizing and presenting information on a web page in a clear and logical manner. Here's a breakdown of how content can be structured using HTML:</p>
+                    <ol>
+                        <li>
+                           <strong>Headings (`&lt;h1>` to `&lt;h6>`)</strong> <br>
+                           - Headings are used to define the hierarchy of content on a web page. <br>
+                           - There are six levels of headings, ranging from `&lt;h1>` (the highest level) to `&lt;h6>` (the lowest level). <br>
+                           - Headings help users and search engines understand the structure and importance of different sections of a web page. <br>
+                        </li>
+                        <li>
+                           <strong>Paragraphs (`&lt;p>`)</strong>  <br>
+                           - Paragraphs are used to group and present blocks of text.  <br>
+                           - They provide structure and readability to written content on a web page.  <br>
+                        </li>
+                        <li>
+                           <strong>Lists (`&lt;ul>`, `&lt;ol>`, `&lt;li>`)</strong> <br>
+                           - Lists are used to organize related items into an ordered (numbered) or unordered (bulleted) list. <br>
+                           - `&lt;ul>` is used for unordered lists, while `&lt;ol>` is used for ordered lists. <br>
+                           - Each item in a list is represented by an `&lt;li>` (list item) element. <br>
+                        </li>
+                        <li>
+                           <strong>Divisions (`&lt;div>`)</strong> <br>
+                           - The `&lt;div>` element is a generic container used to group and structure content. <br>
+                           - It is commonly used with CSS for layout purposes, allowing sections of a web page to be styled and positioned independently. <br>
+                        </li>
+                        <li>
+                           <strong>Sections (`&lt;section>`)</strong> <br>
+                           - The `&lt;section>` element defines a thematic grouping of content within a web page. <br>
+                           - It is used to divide content into meaningful sections, such as chapters, articles, or modules. <br>
+                        </li>
+                        <li>
+                           <strong>Headers and Footers (`&lt;header>`, `&lt;footer>`)</strong> <br>
+                           - The `&lt;header>` element represents introductory content or a group of navigational links at the top of a web page or section. <br>
+                           - The `&lt;footer>` element represents concluding content or information at the bottom of a web page or section. <br>
+                        </li>
+                        <li>
+                           <strong>Navigation (`&lt;nav>`)</strong> <br>
+                           - The `&lt;nav>` element is used to define a section of navigation links. <br>
+                           - It typically contains links to other pages within the website or sections within the current page. <br>
+                        </li>
+                        <li>
+                           <strong>Articles (`&lt;article>`)</strong> <br>
+                           - The `&lt;article>` element represents a self-contained piece of content that can be distributed independently. <br>
+                           - It is often used for blog posts, news articles, forum posts, or user-generated content. <br>
+                        </li>
+                        <li>
+                           <strong>Aside (`&lt;aside>`)</strong> <br>
+                           - The `&lt;aside>` element represents content that is tangentially related to the content around it. <br>
+                           - It is commonly used for sidebars, pull quotes, or supplementary information. <br>
+                        </li>
+                    </ol>
+                    <p>By structuring content effectively using these HTML elements, you can create web pages that are well-organized, easy to navigate, and visually appealing. This not only enhances the user experience but also improves accessibility and search engine optimization.</p>
+
+                    <h1>Links and Navigation</h1>
+                    <p>Links and navigation play a crucial role in connecting web pages and guiding users through a website. Here's a breakdown of how links and navigation are implemented in HTML:</p>
+                    <ol>
+                        <li>
+                           <strong>Anchor Tag (`&lt;a>`)</strong> <br>
+                           - The anchor tag, `&lt;a>`, is used to create hyperlinks in HTML. <br>
+                           - Hyperlinks are clickable elements that allow users to navigate to another web page, a different section of the same page, or external resources. <br>
+                           - The `href` attribute specifies the URL of the destination page or resource. <br>
+                           - Example: `&lt;a href="https://www.example.com">Visit Example Website</a>` creates a hyperlink that directs users to "https://www.example.com" when clicked, displaying the text "Visit Example Website." <br>
+                        </li>
+                        <li>
+                           <strong>Internal Links</strong> <br>
+                           - Internal links are used to navigate within the same website or web page. <br>
+                           - To link to a different section of the same page, the `href` attribute can be set to the ID of the target element preceded by a hash symbol (`#`). <br>
+                           - Example: `&lt;a href="#section2">Jump to Section 2</a>` links to an element with the ID "section2" on the same page. <br>
+                        </li>
+                        <li>
+                           <strong>External Links</strong> <br>
+                           - External links direct users to resources located on different websites. <br>
+                           - When creating external links, include the complete URL of the destination page or resource in the `href` attribute. <br>
+                           - Example: `&lt;a href="https://www.example.com">Visit Example Website</a>` directs users to "https://www.example.com" when clicked. <br>
+                        </li>
+                        <li>
+                           <strong>Navigation Menus</strong> <br>
+                           - Navigation menus provide a structured collection of links for navigating through a website. <br>
+                           - They are typically created using lists (`&lt;ul>` and `&lt;li>`) and styled using CSS to create horizontal or vertical menus. <br>
+                           - Each menu item is wrapped in an anchor tag (`&lt;a>`) to create clickable links. <br>
+                        </li>
+                        <li>
+                           <strong>Site Navigation Structure</strong> <br>
+                           - Consider the logical structure of your website when designing navigation. <br>
+                           - Organize navigation links into categories or sections to make it easy for users to find the information they're looking for. <br>
+                           - Include navigation elements such as menus, breadcrumbs, and sitemaps to enhance usability and accessibility. <br>
+                        </li>
+                    </ol>
+                    <p>By incorporating links and navigation effectively into your HTML documents, you can create user-friendly websites that are easy to navigate and provide a seamless browsing experience for visitors.</p>
+
+                    <h1>Images and Multimedia</h1>
+                    <p>Images and multimedia elements enhance the visual appeal and interactivity of web pages. Here's how they are incorporated using HTML:</p>
+                    <ol>
+                        <li>
+                            <strong>Image Tag (`&lt;img>`):</strong><br>
+                          - The `&lt;img>` tag is used to embed images into HTML documents.<br>
+                          - It is a self-closing tag, meaning it does not require a closing tag.<br>
+                          - The `src` attribute specifies the URL (source) of the image file.<br>
+                          - The `alt` attribute provides alternative text for the image, which is displayed if the image fails to load or for accessibility purposes.<br>
+                          - Example: `&lt;img src="example.jpg" alt="Example Image">`
+                        </li>
+                        
+                        <li>
+                            <strong>Image Formats:</strong><br>
+                          - Common image formats supported in web development include JPEG (`.jpg` or `.jpeg`), PNG (`.png`), GIF (`.gif`), and SVG (Scalable Vector Graphics).<br>
+                          - Choose the appropriate image format based on factors such as image quality, file size, and support for transparency or animation.
+                        </li>
+                        
+                        <li>
+                            <strong>Responsive Images:</strong><br>
+                          - To ensure images adapt to different screen sizes and devices, use CSS techniques such as media queries and the `max-width` property to make images responsive.<br>
+                          - Alternatively, HTML provides the `srcset` attribute, which allows you to specify multiple image files at different resolutions, enabling browsers to choose the most appropriate image based on the device's pixel density.
+                        </li>
+                        
+                        <li>
+                            <strong>Multimedia Content:</strong><br>
+                          - In addition to images, HTML supports embedding multimedia content such as videos and audio.<br>
+                          - Video content can be embedded using the `&lt;video>` tag, while audio content can be embedded using the `&lt;audio>` tag.<br>
+                          - These tags support various attributes for controlling playback, such as `controls` for displaying playback controls, `autoplay` for automatically playing the media, and `loop` for looping playback.
+                        </li>
+                        
+                        <li>
+                            <strong>Embedding External Content:</strong><br>
+                          - Websites often embed multimedia content from external sources such as YouTube, Vimeo, or SoundCloud.<br>
+                          - For embedding external videos, you can use the `&lt;iframe>` tag and specify the source URL provided by the video hosting platform.<br>
+                          - Similarly, audio content from external sources can be embedded using the `&lt;audio>` tag with the `src` attribute pointing to the audio file's URL.
+                        </li>
+                        
+                        <li>
+                            <strong>Accessibility:</strong><br>
+                          - Provide descriptive `alt` text for images to ensure accessibility for users with disabilities or those using screen readers.<br>
+                          - Use captions or transcripts for multimedia content to provide additional context and accessibility.
+                        </li>
+                    </ol>
+                    <p>By leveraging images and multimedia elements effectively in HTML, you can create visually appealing and engaging web pages that enhance the user experience and convey information more effectively.</p>
+
+                    <h1>Basic Styling</h1>
+                    <p>Basic styling in HTML involves applying simple visual enhancements to elements using inline styles or internal CSS. Here's an overview of how you can style HTML elements:</p>
+                    <ol>
+                        <li>
+                            <strong>Inline Styles:</strong><br>
+                          - Inline styles are applied directly to individual HTML elements using the `style` attribute.<br>
+                          - The `style` attribute contains CSS declarations enclosed in double quotes (`"`).<br>
+                          - CSS properties and values are separated by colons (`:`), and multiple declarations are separated by semicolons (`;`).<br>
+                          - Example: `&lt;p style="color: red; font-size: 16px;">This is a paragraph with inline styles.</p>`
+                        </li>
+                        
+                        <li>
+                            <strong>Internal CSS:</strong><br>
+                          - Internal CSS is defined within the `&lt;style>` element in the head section of an HTML document.<br>
+                          - CSS rules are written using selectors to target HTML elements, followed by one or more declarations enclosed in curly braces (`{}`).<br>
+                        </li>
+                        
+                        <li>
+                            <strong>CSS Properties:</strong><br>
+                          - CSS properties define the visual presentation of HTML elements, such as color, font size, margin, padding, and background.<br>
+                          - Common CSS properties include `color`, `font-size`, `font-family`, `background-color`, `margin`, `padding`, `border`, `text-align`, and more.<br>
+                          - Values for CSS properties can be specified in various units, such as pixels (`px`), percentages (%), ems (`em`), and keywords (e.g., `red`, `center`).
+                        </li>
+                        
+                        <li>
+                            <strong>Selectors:</strong><br>
+                          - Selectors are patterns used to target specific HTML elements for styling.<br>
+                          - They can be based on element names, classes, IDs, attributes, or their relationships within the document structure.<br>
+                          - Examples of selectors include element selectors (e.g., `p`, `h1`, `div`), class selectors (e.g., `.classname`), ID selectors (e.g., `#idname`), and descendant selectors (e.g., `parent child`).
+                        </li>
+                        
+                        <li>
+                            <strong>Cascading and Specificity:</strong><br>
+                          - CSS follows the cascading principle, where styles applied to an element are determined by multiple factors, including the source of the styles (inline, internal, external) and the specificity of the selectors.<br>
+                          - Specificity refers to the weight or importance of a selector in determining which styles apply to an element.
+                        </li>
+                    </ol>
+                    <p>By using basic styling techniques in HTML, you can enhance the visual appearance of web pages and create more engaging user experiences. However, for more extensive styling and layout control, it's recommended to use external CSS files and CSS frameworks like Bootstrap.</p>
+                    <p style="text-align: right;">&copy; 2024 MrLwitwma</p>
+                    <p>
+                        If your concepts were not cleared with this I recommended you to watch the tutorial video on my YouTube Channel for Free.
+                        If the video too does not solve your doubts you can comment your doubts or I recommended to watch some other Tutorials on YouTube.
+                    </p>
+                    <p>
+                        Video Link: <a href="https://youtube.com/@mrlwitwma">HTML for Beginners</a>
+                    </p>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-media">
+            <div class="medias">
+                My Social Media Accounts
+                <div class="clickme">
+                    <a href="https://instagram.com/mrlwitwma" class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@mrlwitwma" class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z"/>
+                        </svg>
+                    </a>
+                    <!-- <a href="" class="circle"></a> -->
+                    <a href="https://github.com/mrlwitwma" class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copyright" class="copy">Copyright &copy; 2024 MrLwitwma</div>
+    </footer>
+</body>
+</html>
