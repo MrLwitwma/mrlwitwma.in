@@ -27,3 +27,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const copy = document.getElementById('copyright');
     copy.innerHTML = 'Copyright &copy; 2025 MrLwitwma'
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("a[href]");
+
+    links.forEach(link => {
+        const linkUrl = new URL(link.href, window.location.origin);
+
+        // Check if the link's hostname is different from the current page's hostname
+        if (linkUrl.hostname !== window.location.hostname) {
+            link.target = "_blank"; // Open in a new tab
+            link.rel = "noopener noreferrer"; // Security best practices
+        }
+    });
+});
